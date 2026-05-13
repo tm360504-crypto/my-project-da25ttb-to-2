@@ -1,1 +1,39 @@
-"*MA NGUON JAVASCRIPT*"
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div.container{
+    padding: 0px 150px;
+}
+
+.tieude{
+    font-weight: bolder;
+    font-size: 16pt;
+    color: blue;
+    text-transform: uppercase;
+    padding: 10px 0px 10px;
+}
+
+img{
+    border-radius: 5%;
+    width: 50%;
+    max-width: 200px;
+}
+
+ul{
+    list-style-type: square;
+    /* list-style-image: url("../assets/images/heart-solid.png"); */
+    list-style-position: inside;
+}
+
+table, tr, td, th{
+    border: 1px solid blue;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+body{
+    background-color: LavenderBlush;
+}
